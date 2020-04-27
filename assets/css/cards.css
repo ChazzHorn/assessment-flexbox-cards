@@ -1,7 +1,7 @@
 .cardContainer {
   /* display */
   display: flex;
-  width: 900px; /* I added this to make the whole box fit the other div in nicely*/
+  /* width: 900px; I added this to make the whole box fit the other div in nicely */
   border: 1px solid #CAD0D2;
   border-radius: 4px;
   overflow: hidden;
@@ -11,7 +11,7 @@
   /* display, flex-direction, flex-grow, flex-basis */
   display: flex;
   flex-direction: column;
-  flex-grow: 0;
+  flex-grow: 2;
   flex-basis: 300px;
   border: 1px solid #CAD0D2;
   border-radius: 4px;
